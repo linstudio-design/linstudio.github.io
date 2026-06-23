@@ -66,7 +66,7 @@
 }
 
 .product-card .tray-image {
-    height: 300px;
+    height: 400px;
     object-fit: contain;
     object-position: Left;
 
@@ -75,9 +75,10 @@
 .product-card .incense-image {
     height: 700px;
     object-fit: contain;
-  object-position: right;
+    align-items: flex-end;
 }
 .product-card:has(.incense-image) .product-info {
+      width: 100%;
     text-align: left;
 }
 .product-card .bookmark-image {
