@@ -44,7 +44,7 @@ p {
 }
 .tray-image {
   width: 100%;
-  height: 470px;
+  height: 300px;
   object-fit: cover;
 }
 
@@ -56,7 +56,7 @@ p {
 
 .bookmark-image {
   width: 100%;
-  height: 608px;
+  height: 500px;
   object-fit: cover;
 }
 
