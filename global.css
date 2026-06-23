@@ -44,8 +44,7 @@ p {
 }
 .tray-image {
   width: 100%;
-  height: 465px !important;
-  border: 5px solid red;
+  height: 470px;
   object-fit: cover;
 }
 
@@ -58,5 +57,13 @@ p {
 .bookmark-image {
   width: 100%;
   height: 608px;
-  object-fit: contain;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .tray-image,
+  .incense-image,
+  .bookmark-image {
+    height: auto;
+  }
 }
